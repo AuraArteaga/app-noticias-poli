@@ -1,0 +1,7 @@
+<ion-card *ngFor="let noticia of noticias">
+  <ion-img [src]="noticia.urlToImage"></ion-img>
+  <ion-card-header>
+    <ion-card-subtitle>{{noticia.title}}</ion-card-subtitle>
+    <ion-card-title>{{noticia.author}}</ion-card-title>
+  </ion-card-header>
+</ion-card>
